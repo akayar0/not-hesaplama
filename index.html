@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Hesaplama</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="info">
+        <h3>Notlara göre Harf Notu Dağılımları</h3>
+        <hr>
+        <div class="notlar">
+        <table>
+            <tr><td>90-100 → AA</td></tr>
+            <tr><td>85-89 → BA</td></tr>
+            <tr><td>80-84 → BB</td></tr>
+            <tr><td>70-79 → CB</td></tr>
+            <tr><td>60-69 → CC</td></tr>
+            <tr><td>0-59 → FF</td></tr>
+        </table>
+        </div>
+    </div>
+    <div class="anasayfa">
+        <div class="hesapArayüzü">
+            <div class="hesaplama">
+                <h2>VİZE FİNAL NOT HESAPLAMA</h2>
+                <div class="vize">
+                    <input type="number" id="vize" placeholder="Vize (%40):">
+                </div>
+                <div class="final">
+                    <input type="number" id="final" placeholder="Final (%60):">
+                </div>
+                <div class="buttons">
+                    <button id="hesapla" class="btn"><b>Hesapla</b></button>
+                </div>
+                <div class="result">
+                    <p id="ortalama">Ortalamanız</p>
+                    <p id="harfNotu">Harf Notunuz</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="/örnekProjeler/vizeFinalHesaplama/index.js"></script>
+
+</html>
+
